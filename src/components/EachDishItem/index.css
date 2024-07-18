@@ -1,0 +1,62 @@
+.dishItem {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid silver;
+  border-radius: 5px;
+}
+.dishImg {
+  width: 100px;
+  height: 120px;
+  border-radius: 5px;
+  align-self: center;
+}
+.dishDetails {
+  display: flex;
+  gap: 0.8rem;
+  width: 50%;
+}
+.dishDetails > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.dishType {
+  width: 40px;
+  height: 40px;
+}
+.calories {
+  color: orangered;
+  align-self: center;
+  font-weight: 700;
+}
+.dishPrice {
+  color: gray;
+  font-weight: 700;
+}
+.dishDescription {
+  color: silver;
+}
+.notAvailable {
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+}
+.dishCounter {
+  background-color: rgb(15, 187, 15);
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 13px;
+}
+.dishCounter > p {
+  font-weight: 600;
+  font-size: 16px;
+}
+.addOn {
+  color: blue;
+  font-size: 0.95rem;
+}

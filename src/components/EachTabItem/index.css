@@ -1,0 +1,8 @@
+li {
+  flex-shrink: 0;
+  padding: 1rem 0.5rem;
+}
+.active {
+  color: red;
+  border-bottom: 2px solid red;
+}
